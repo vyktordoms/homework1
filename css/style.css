@@ -1,0 +1,27 @@
+body {
+	/*background: lime;*/
+	font-family: Tahoma, sans-serif;
+	font-weight: 100;
+	font-size: 8pt;
+}
+/*Enter paragraph*/
+p{
+	color: green;
+	/*background-color: gray;*/
+}
+
+/*End paragraph*/
+
+ h1 {
+  	text-transform: lowercase;
+     text-align: center;
+ }
+
+ .line {
+ 	width: 600px;
+ 	border: solid 1px lightgrey;
+}
+img {
+	border: 2px dashed black;
+	text-align: center;
+}
