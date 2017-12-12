@@ -4,24 +4,30 @@ body {
 	font-weight: 100;
 	font-size: 8pt;
 }
+.fone {
+	background-color: gray;
+
 /*Enter paragraph*/
 p{
-	color: green;
+	color: black;
 	/*background-color: gray;*/
 }
 
 /*End paragraph*/
+}
 
  h1 {
-  	text-transform: lowercase;
+  	text-transform: uppercase;
      text-align: center;
  }
-
+.stud {
+	text-align: center;
+}
  .line {
  	width: 600px;
  	border: solid 1px lightgrey;
 }
 img {
-	border: 2px dashed black;
+	border: 1px solid black;
 	text-align: center;
 }
