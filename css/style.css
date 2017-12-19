@@ -1,12 +1,21 @@
+* {
+	padding: 0;
+	margin: 0; 
+}
 body {
 	/*background: lime;*/
 	font-family: Tahoma, sans-serif;
-	font-weight: 100;
-	font-size: 8pt;
+	background-color: lightgray;
 }
-.fone {
-	background-color: gray;
 
+	
+.list {
+	width: 500px;
+	background-color: white;
+	margin:0 auto;
+	margin-top: 5px;
+	padding: 30px;
+}
 /*Enter paragraph*/
 p{
 	color: black;
@@ -14,20 +23,41 @@ p{
 }
 
 /*End paragraph*/
-}
+
 
  h1 {
-  	text-transform: uppercase;
-     text-align: center;
+  	 text-align: center;
+  	 font-size: 16px;
  }
 .stud {
 	text-align: center;
 }
+h3 {
+	margin-left: 15px;
+}
+ 
  .line {
- 	width: 600px;
+ 	width: 450px;
  	border: solid 1px lightgrey;
 }
 img {
 	border: 1px solid black;
-	text-align: center;
+}
+.face {
+	height: 224px;
+	width: 334px;
+	margin: 0 auto;
+}
+.frontend {
+    margin-left: 50px;
+}
+
+.telephone {
+	margin-left: 50px; 
+}
+.mail {
+    margin-left: 50px; 
+}
+.fback {
+	margin-left: 50px; 
 }
