@@ -2,62 +2,58 @@
 	padding: 0;
 	margin: 0; 
 }
+
 body {
-	/*background: lime;*/
-	font-family: Tahoma, sans-serif;
+		font-family: Tahoma, sans-serif;
 	background-color: lightgray;
 }
 
-	
 .list {
 	width: 500px;
 	background-color: white;
 	margin:0 auto;
 	margin-top: 5px;
 	padding: 30px;
+	padding-bottom: 60px;
+	margin-bottom: 50px;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.46);
+-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.46);
+box-shadow: 0px 2px 3px 0px rgba(0,0,0,.46);
 }
-/*Enter paragraph*/
-p{
-	color: black;
-	/*background-color: gray;*/
-}
 
-/*End paragraph*/
-
-
- h1 {
+h1 {
   	 text-align: center;
-  	 font-size: 16px;
+  	 font-size: 20px;
  }
-.stud {
+p.stud {
 	text-align: center;
+	margin-left: 0px;
+	font-weight: normal;
 }
-h3 {
+
+p {
 	margin-left: 15px;
+	font-weight: bold;
 }
  
- .line {
- 	width: 450px;
- 	border: solid 1px lightgrey;
+.line {
+ 	width: 470px;
+ 	margin: 0 auto;
 }
-img {
-	border: 1px solid black;
-}
+
 .face {
-	height: 224px;
-	width: 334px;
+	height: 202px;
+	width: 252px;
 	margin: 0 auto;
 }
-.frontend {
+
+.frontend, 
+.fback, 
+.telephone, 
+.mail {
     margin-left: 50px;
 }
 
-.telephone {
-	margin-left: 50px; 
-}
-.mail {
-    margin-left: 50px; 
-}
-.fback {
-	margin-left: 50px; 
+.fback  {
+	list-style-type: none;
 }
